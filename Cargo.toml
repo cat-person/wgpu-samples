@@ -2,6 +2,7 @@
 name = "wgpu-samples"
 version = "0.1.0"
 edition = "2021"
+default-run = "hello-triangle"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -9,4 +10,12 @@ edition = "2021"
 wgpu = "0.16.2"
 winit = "0.28.6"
 async-std = { version = "1.12.0", features = ["attributes"] }
+
+[[bin]]
+name = "hello-triangle"
+path = "hello-triangle/main.rs"
+
+# [[bin]]
+# name = "hello-triangle-msaa"
+# path = "hello-triangle-msaa/main.rs"
 
