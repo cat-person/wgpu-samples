@@ -15,7 +15,7 @@ async-std = { version = "1.12.0", features = ["attributes"] }
 name = "hello-triangle"
 path = "hello-triangle/main.rs"
 
-# [[bin]]
-# name = "hello-triangle-msaa"
-# path = "hello-triangle-msaa/main.rs"
+[[bin]]
+name = "hello-triangle-msaa"
+path = "hello-triangle-msaa/main.rs"
 
