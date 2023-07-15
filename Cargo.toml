@@ -19,3 +19,7 @@ path = "hello-triangle/main.rs"
 name = "hello-triangle-msaa"
 path = "hello-triangle-msaa/main.rs"
 
+[[bin]]
+name = "resize-canvas"
+path = "resize-canvas/main.rs"
+
